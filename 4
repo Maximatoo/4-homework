@@ -1,0 +1,15 @@
+def add_two_and_two
+  two_str = "II"
+  four_str = two_str + two_str
+
+  sum = 0
+
+  four_str.each_char do |ch|
+    sum += 1
+  end
+
+  sum
+end
+
+result = add_two_and_two
+puts "2 + 2 = #{result}"
